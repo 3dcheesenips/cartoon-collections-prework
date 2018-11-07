@@ -3,7 +3,7 @@ def roll_call_dwarves(names)# code an argument here
   def call_dwarves(names)
     puts names
   end
-  
+  names.each do 
 end
 
 def summon_captain_planet# code an argument here
