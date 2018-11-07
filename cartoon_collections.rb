@@ -1,10 +1,8 @@
-def roll_call_dwarves(names)# code an argument here
-  # Your code here
+def roll_call_dwarves(names)
   names.each_with_index{|value, index| puts "#{index + 1} #{value}"}
 end
 
-def summon_captain_planet(planeteer_calls)# code an argument here
-  # Your code here
+def summon_captain_planet(planeteer_calls)
   newArr = []
   planeteer_calls.collect do |x|
    newArr << x.capitalize + '!'
@@ -12,7 +10,7 @@ def summon_captain_planet(planeteer_calls)# code an argument here
  return newArr
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(calls)
   # Your code here
 end
 
