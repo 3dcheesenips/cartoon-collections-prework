@@ -1,7 +1,7 @@
 def roll_call_dwarves(names)# code an argument here
   # Your code here
   def call_dwarves(names)
-    puts
+    puts names
 end
 
 def summon_captain_planet# code an argument here
